@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;  
+}
+.bg-container {
+    width: auto;
+    height: 800px;
+    background-image: url("./assets/image\ 1.png");
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    background-size: cover;
+}
+.overlay {
+    display: flex;
+    width: auto;
+    height: inherit;
+    margin-top: -3px;
+     background: #0A0A0A;
+    opacity: 0.9;
+    /* position: relative; */
+}
+
+nav{
+    position: absolute;
+    margin-top: 50px;
+    background: transparent;
+    color: orangered;
+    height: 80px;
+    width: 100%;
+  }
+  .logo{
+    color: #f2f2f2;
+    font-size: 33px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  nav ul{
+    float: right;
+    margin-right: 200px;
+    color: orangered;
+  }
+  
+  #inbox {
+      position: absolute;
+      width: 92px;
+      height: 92px;
+      left: 1300px;
+      top: 0px;
+      background-image: url("./assets/image\ 3.png");
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+  }
+  nav ul li a{
+    color: #f2f2f2;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-family: 'Poppins', sans-serif;
+  }
+  nav ul li a.active, a:hover{
+    border-bottom:  2px solid #3B5999;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: red;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+  .flex {
+      display: flex;
+      margin-top: 10%;
+  }
+  .container2 {
+    position: absolute;
+    width: 850px;
+    /* overflow: hidden; */
+    height: 900px;
+     background: url("./assets/image\ 2.png");
+     background-size: cover;
+     margin-left: 50%;
+     /* border-radius: 50%; */
+  }
+  .container1 {
+      display: flex;
+      flex-direction: column;
+  }
+  #art, #rhyme {
+    position: absolute;
+    width: 300px;
+    height: 148px;
+    left: 80px;
+    top: 192px;
+    font-style: normal;
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 148px;
+    color: #3B5999;
+
+  }
+  #rhyme {
+      color: #FFFFFF;
+      line-height: 400px;
+      letter-spacing: 0.15em
+  }
+  #text {
+    position: absolute;
+    width: 587px;
+    height: 72px;
+    left: 80px;
+    top: 500px;
+    
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    
+    color: #D1D1D1;
+  }
+  #buttons {
+      display: flex;
+      border: 2px solid  black;
+  }
+  button {
+    position: absolute;
+    width: 285px;
+    height: 96px;
+    left: 80px;
+    top: 600px;
+     background: #3B5999;
+    border-radius: 70px;
+    border: none;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+}
+#learn {
+      left: 420px;
+      background: #0A0A0A;
+      opacity: 0.9;
+      border: 2px solid #3B5999;
+  }
+@media (max-width: 765px){
+.checkbtn{
+    display: block;
+    margin-right: 40px;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -110%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover, a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: -50px;
+  }
+  #check:checked ~ label #btn{
+      display: none;
+}
+#check:checked ~ label #can {
+    display: block;
+}
+.logo {
+        font-size: 27px;
+        padding-left: 25px;
+      }
+}
