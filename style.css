@@ -93,7 +93,7 @@ nav{
     height: 900px;
      background: url("./assets/image\ 2.png");
      background-size: cover;
-     margin-left: 50%;
+     margin-left: 55%;
      /* border-radius: 50%; */
   }
   .container1 {
@@ -163,6 +163,120 @@ nav{
       opacity: 0.9;
       border: 2px solid #3B5999;
   }
+  .image-nav {
+      margin-top: 50px;
+      margin-left: 100px;
+  }
+.after-banner {
+    display: flex;
+    margin-top: 15%;
+    margin-left: 100px;
+}
+.after-banner div p {
+    margin-top: 30px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #656565;
+
+}
+.after-banner div h2 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #656565;
+}
+#cv {
+    position: absolute;
+    width: 345px;
+    height: 96px;
+    left: 100px;
+    top: 1530px;
+    background: #3B5999;
+    border-radius: 70px;
+
+}
+.what-i-do {
+    width: auto;
+    height: 1000px;
+    background-color: #FEF2F2;
+    display: flex;
+    flex-direction: column;
+}
+.what-i-do .items {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.space {
+    margin-top: 10%;
+}
+.what-i-do .items h3 {
+    margin-top: 30px;
+    color: #656565;
+    font-size: 28px
+}
+.what-i-do .items p {
+    margin: 30px;
+    color: #656565;
+    font-size: 16px;
+    line-height: 22px
+}
+#second, #third {
+    margin-left: 27%;
+}
+#third {
+    margin-left: 54%;
+}
+.what-i-do .items > div {
+    position: absolute;
+    width: 377px;
+    height: 300px;
+    left: 100px;
+    top: 2050px;
+    background: #FFFFFF;
+    text-align: center;
+}
+#ellipse {
+    margin-top: -50px;
+    margin-left: 32%;
+    background-color: #FEF2F2;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url("./assets/image\ 6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 2px solid black; */
+}
+.what-i-do .items > div {
+
+}
+.what-i-do h2 {
+    position: absolute;
+    width: 114px;
+height: 46px;
+/* left: 100px; */
+/* top: 1683px; */
+margin-left: 100px;
+margin-top: 10%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 46px;
+letter-spacing: 0.05em;
+
+color: #656565;
+
+}
+
 @media (max-width: 765px){
 .checkbtn{
     display: block;
